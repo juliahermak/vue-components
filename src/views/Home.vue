@@ -1,7 +1,14 @@
 <template>
-  <HelloWorld />
+  <div>
+    <AxiosWidget></AxiosWidget>
+  </div>
 </template>
 
-<script setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
+<script>
+import AxiosWidget from "@/components/AxiosWidget.vue";
+export default {
+  components: {
+    AxiosWidget,
+  },
+};
 </script>
