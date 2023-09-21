@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="block block_width block_color">
+    <div class="block block_width block_color block__margin">
       <v-card variant="outlined">
         <div class="d-flex block__header">
           <div class="block__header_margin-left-part">
@@ -116,6 +116,9 @@ export default {
 };
 </script>
 <style scoped>
+.block__margin {
+  margin: 32px;
+}
 .block__header_red-text {
   color: rgb(178, 2, 2);
 }

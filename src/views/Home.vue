@@ -1,14 +1,6 @@
 <template>
-  <div>
-    <AxiosWidget></AxiosWidget>
-  </div>
+  <div>НЕМА НІЧОГО І НІКОГО!!!</div>
 </template>
-
 <script>
-import AxiosWidget from "@/components/AxiosWidget.vue";
-export default {
-  components: {
-    AxiosWidget,
-  },
-};
+export default {};
 </script>
